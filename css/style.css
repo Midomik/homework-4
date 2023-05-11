@@ -71,6 +71,8 @@ img {
 /* ==========================  HEADER  ========================== */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-header-container {
@@ -177,9 +179,15 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-
   padding: 188px 0;
-}
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background-page-header/people-office.png);
+   max-width: 1440px; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  }
+
+
 
 .main-header {
   font-weight: 700;
@@ -382,21 +390,20 @@ img {
   margin-bottom: 72px;
 }
 
-.customer-list{
+.customer-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
   margin-bottom: 120px;
-
 }
 
-.customer-container{
-  border: 1px solid #8E8F99;
-border-radius: 4px;
+.customer-container {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
 }
 
-.customer-img{
+.customer-img {
   margin: 16px 32px 16px 32px;
 }
 /* ==========================  /CUSTOMERS  ========================== */
@@ -408,7 +415,6 @@ border-radius: 4px;
 .footer-main-studio {
   background-color: var(--bckg-color-main);
   padding: 100px 0;
-  
 }
 
 /* .logo-footer {
