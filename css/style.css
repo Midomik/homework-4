@@ -397,7 +397,7 @@ img {
 padding:120px 0;
 }
 
-.customers-item{
+.customer-item{
 width: calc((100% - 120px) / 6);
 height:88px;
 }
@@ -431,8 +431,7 @@ height:88px;
 }
 
 .customer-link:hover,
-.customer-link:focus,
-.customer-link:active{
+.customer-link:focus:active{
   border-color:#404bbf;
   color: #404bbf;
 }
