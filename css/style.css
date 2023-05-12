@@ -431,7 +431,7 @@ height:88px;
 }
 
 .customer-link:hover,
-.customer-link:focus:active{
+.customer-link:active{
   border-color:#404bbf;
   color: #404bbf;
 }
