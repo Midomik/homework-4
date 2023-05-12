@@ -431,6 +431,7 @@ height:88px;
 }
 
 .customer-link:hover,
+.customer-link:focus,
 .customer-link:active{
   border-color:#404bbf;
   color: #404bbf;
@@ -449,6 +450,11 @@ height:88px;
 .footer-main-studio {
   background-color: var(--bckg-color-main);
   padding: 100px 0;
+}
+
+.footer-main-studio-container{
+  display: flex;
+  align-items: center;
 }
 
 .footer-text {
@@ -489,6 +495,15 @@ height:88px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
+
+.footer-social-link-container{
+  margin-left: 120px;
+}
+
+.social-link-container-size-margin{
+margin-top: 16px;
+}
+
 
 /* ==========================  /FOOTER  ========================== */
 
