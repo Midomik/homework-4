@@ -186,6 +186,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .main-haeder-container {
@@ -437,7 +438,6 @@ height:88px;
 }
 
 .customer-img {
-  margin: 16px 32px 16px 32px;
   fill:currentColor;
 }
 /* ==========================  /CUSTOMERS  ========================== */
@@ -503,7 +503,7 @@ height:88px;
 }
 
 .social-link-container-size{
-margin-top: 16px;
+
 gap: 16px;
 }
 
